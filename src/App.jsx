@@ -1,13 +1,7 @@
-import Header from "./components/Header";
-import Products from "./components/Products";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Products />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
