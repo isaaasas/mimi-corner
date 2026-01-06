@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import "./Header.css";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,7 +11,9 @@ const Header = () => {
       </div>
 
       <div className="header-center">
-        <img src={logo} alt="Mimi Corner Beauty" className="logo" />
+        <Link to="/">
+          <img src={logo} alt="Mimi Corner Beauty" className="logo" />
+        </Link>
       </div>
 
       <div className="header-right">

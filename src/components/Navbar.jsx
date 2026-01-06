@@ -1,12 +1,13 @@
 // src/components/Navbar.jsx
 import "./Navbar.css";
 import { FiHeart, FiShoppingBag, FiUser } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <nav className="menu">
-        <a href="#">БҮХ БҮТЭЭГДЭХҮҮН</a>
+       <Link to="/products">БҮХ БҮТЭЭГДЭХҮҮН</Link>
         <a href="#">АРЬС АРЧИЛГАА</a>
         <a href="#">БРЭНД</a>
         <a href="#">НҮҮР БУДАЛТ & ҮС</a>
@@ -24,5 +25,7 @@ const Navbar = () => {
     </div>
   );
 };
+
+
 
 export default Navbar;
