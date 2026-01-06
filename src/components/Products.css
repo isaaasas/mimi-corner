@@ -1,0 +1,24 @@
+.image-wrapper {
+  position: relative;
+}
+
+.main-img {
+  width: 100%;
+  display: block;
+}
+
+.hover-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-wrapper:hover .hover-img {
+  opacity: 1;
+}
+
+.image-wrapper:hover .main-img {
+  opacity: 0;
+}

@@ -66,11 +66,6 @@ function Header() {
             style={{ backgroundImage: `url(${img})` }}
           />
         ))}
-
-        <div className="hero-content">
-          <h1>HEVEBLUE</h1>
-          <p>АЛБАН ЁСНЫ ЭРХТЭЙГЭЭР</p>
-        </div>
       </section>
     </>
   )

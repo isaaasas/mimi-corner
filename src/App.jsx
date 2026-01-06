@@ -1,7 +1,13 @@
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Products from "./components/Products";
 
 function App() {
-  return <Header />
+  return (
+    <>
+      <Header />
+      <Products />
+    </>
+  );
 }
 
-export default App
+export default App;

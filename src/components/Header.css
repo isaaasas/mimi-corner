@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   height: 80vh;
-  width: 160%;
+  width: 162%;
   overflow: hidden;
   margin-top: 20px;
 }
@@ -40,22 +40,20 @@
 }
 
 .logo {
-  text-align: center;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
 }
 
-.logo h1 {
-  margin: 0;
-  font-size: 26px;
-  letter-spacing: 1px;
-}
-
-.logo span {
-  font-size: 12px;
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
 }
 
 .search {
-  position: absolute;
+  position: fixed;
   right: 135px;
   top: 55px;
   padding: 8px 14px;
