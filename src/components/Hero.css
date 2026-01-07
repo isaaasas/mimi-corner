@@ -1,9 +1,9 @@
 .hero {
   position: relative;
-  top: 60px; /* height of your navbar */
+  top: 60px;
   left: 0;
   height: 94vh;
-  width: 396.4%;
+  width: 122.6%;
   overflow: hidden;
 }
 

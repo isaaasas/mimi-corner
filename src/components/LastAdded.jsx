@@ -1,34 +1,26 @@
-import React from "react";
+// src/components/LastAdded.jsx
 import { products } from "../data/productsData";
-import "./SaleProducts.css";
 import { useCart } from "../context/CartContext";
+import "./LastAdded.css";
 
-export default function SaleProducts() {
+export default function LastAdded() {
   const { addToCart } = useCart();
 
-  const saleProducts = products.filter(
-    (p) => p.category === "sale"
+  const lastAddedProducts = products.filter(
+    (product) => product.category === "new"
   );
 
   return (
-    <section className="sale-products">
-      <h2>ХЯМДРАЛ</h2>
+    <section className="last-added">
+      <h2>Сүүлд нэмэгдсэн</h2>
 
       <div className="products-grid">
-        {saleProducts.map((product) => (
+        {lastAddedProducts.map((product) => (
           <div className="product-card" key={product.id}>
             <div className="image-wrapper">
-              <img
-                src={product.image}
-                className="main-img"
-                alt={product.name}
-              />
+              <img src={product.image} className="main-img" />
               {product.hoverImage && (
-                <img
-                  src={product.hoverImage}
-                  className="hover-img"
-                  alt=""
-                />
+                <img src={product.hoverImage} className="hover-img" />
               )}
             </div>
 

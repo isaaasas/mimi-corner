@@ -11,6 +11,18 @@ import cheek1 from "../assets/cheek1.jpeg";
 import cheek2 from "../assets/cheek2.webp";
 import powder1 from "../assets/powder1.jpeg";
 import powder2 from "../assets/powder2.webp";
+import balm1 from "../assets/balm1.jpeg";
+import balm2 from "../assets/balm2.webp";
+import concealer1 from "../assets/concealer1.jpeg";
+import concealer2 from "../assets/concealer2.jpeg";
+import lashserum1 from "../assets/lashserum1.jpg";
+import lashserum2 from "../assets/lashserum2.jpg";
+import oiltoner from "../assets/oiltoner.jpeg";
+import shampoo1 from "../assets/shampoo1.webp";
+import shampoo2 from "../assets/shampoo2.jpeg";
+import yujacream1 from "../assets/yujacream1.jpeg";
+import yujacream2 from "../assets/yujacream2.webp";
+
 
 export const products = [
   {
@@ -35,7 +47,7 @@ export const products = [
     price: 31920,
     image: seoul1,
     hoverImage: seoul2,
-    category: "new",
+    category: "sale",
   },
   {
     id: 4,
@@ -57,6 +69,7 @@ export const products = [
     price: 24900,
     image: cheek1,
     hoverImage: cheek2,
+    category: "sale",
   },
   {
     id: 7,
@@ -64,5 +77,53 @@ export const products = [
     price: 37710,
     image: powder1,
     hoverImage: powder2,
+    category: "sale",
+    },
+    {
+    id: 8,
+    name: "APRIL SKIN Carrotene IMPM Hydromelt Cleansing Balm",
+    price: 49900,
+    image: balm1,
+    hoverImage: balm2,
+    category: "new",
+    },
+    {
+    id: 9,
+    name: "UNOVE Deep Damage Repair Shampoo",
+    price: 46900,
+    image: shampoo1,
+    hoverImage: shampoo2,
+    category: "new",
+    },
+    {
+    id: 10,
+    name: "THE SEAM 1.5 Cover Perfection Tip Concealer Natural Beige",
+    price: 13900,
+    image: concealer1,
+    hoverImage: concealer2,
+    category: "new",
+    },
+    {
+    id: 11,
+    name: "ETUDE HOUSE My Lash Serum",
+    price: 18000,
+    image: lashserum1,
+    hoverImage: lashserum2,
+    category: "new",
+    },
+    {
+    id: 12,
+    name: "K-SECRET Ksecret Capsule Cream:Niacinamide 5% + Yuja",
+    price: 54900,
+    image: yujacream1,
+    hoverImage: yujacream2,
+    category: "new",
+    },
+    {
+    id: 13,
+    name: "HAYEJIN RiceFila Oil Toner",
+    price: 49900,
+    image: oiltoner,
+    category: "new",
     }
 ];
