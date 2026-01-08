@@ -1,0 +1,20 @@
+
+
+.viral-products {
+  padding: 40px 20px;
+  background: #fdfdfd;
+}
+
+.viral-products h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.viral-products .products-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}

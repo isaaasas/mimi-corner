@@ -22,6 +22,23 @@ import shampoo1 from "../assets/shampoo1.webp";
 import shampoo2 from "../assets/shampoo2.jpeg";
 import yujacream1 from "../assets/yujacream1.jpeg";
 import yujacream2 from "../assets/yujacream2.webp";
+import acidtoner1 from "../assets/acidtoner1.jpg";
+import acidtoner2 from "../assets/acidtoner2.webp";
+import anuaserum1 from "../assets/anuaserum1.jpeg";
+import anuaserum2 from "../assets/anuaserum2.webp";
+import bamboo1 from "../assets/bamboo1.jpeg";
+import bamboo2 from "../assets/bamboo2.png";
+import centellaampoul from "../assets/centellaampoul.jpeg";
+import centellaoil1 from "../assets/centellaoil1.jpeg";
+import centellaoil2 from "../assets/centellaoil2.jpeg";
+import centellasun1 from "../assets/centellasun1.webp";
+import centellasun2 from "../assets/centellasun2.jpeg";
+import glowserum1 from "../assets/glowserum1.jpg";
+import primer1 from "../assets/primer1.png";
+import primer2 from "../assets/primer2.webp";
+import snailserum from "../assets/snailserum.jpg";
+import sunrice1 from "../assets/sunrice1.webp";
+import sunrice2 from "../assets/sunrice2.webp";
 
 
 export const products = [
@@ -39,7 +56,7 @@ export const products = [
     price: 31920,
     image: bebe1,
     hoverImage: bebe2,
-    category: "viral",
+    category: "sale",
   },
   {
     id: 3,
@@ -125,5 +142,83 @@ export const products = [
     price: 49900,
     image: oiltoner,
     category: "new",
+    },
+    {
+      id: 14,
+      name: "AXIS-Y Dark Spot Correcting Glow Serum",
+      price: 43900,
+      image: glowserum1,
+      category: "viral",
+    },
+    {
+      id: 15,
+      name: "ORDINARY Glycolic Acid 7% Exfoliating Toner",
+      price: 54900,
+      image: acidtoner1,
+      hoverImage: acidtoner2,
+      category: "viral",
+    },
+    {
+      id: 16,
+      name: "ANUA Niacinamide 10% + TXA 4% Serum",
+      price: 59900,
+      image: anuaserum1,
+      hoverImage: anuaserum2,
+      category: "viral",
+    },
+    {
+      id: 17,
+      name: "PURITO SEOUL Mighty Bamboo Panthenol Cream",
+      price: 56900,
+      image: bamboo1,
+      hoverImage: bamboo2,
+      category: "viral",
+    },
+    {
+      id: 18,
+      name: "TFIT Delicate Silk Veil Art Primer",
+      price: 34900,
+      image: primer1,
+      hoverImage: primer2,
+      category: "viral",
+    },
+    {
+      id: 19,
+      name: "SKIN 1004 Madagasgar Centella Light Cleansing Oil",
+      price: 47900,
+      image: centellaoil1,
+      hoverImage: centellaoil2,
+      category: "viral",
+    },
+    {
+      id: 20,
+      name: "SKIN 1004 Hyalu-Cica Water-Fit Sun Serum",
+      price: 49900,
+      image: centellasun1,
+      hoverImage: centellasun2,
+      category: "viral",
+    },
+    {
+      id: 21,
+      name: "BOJ Relief Sun: Rice + Probiotic SPF50+ PA++++",
+      price: 47900,
+      image: sunrice1,
+      hoverImage: sunrice2,
+      category: "viral",
+    },
+    {
+      id: 22,
+      name: "SKIN1004 Centella Asiatica Ampoule 55ml",
+      price: 39900,
+      image: centellaampoul,
+      category: "viral",
+    },
+    {
+      id: 23,
+      name: "CORSX Snail Mucin Power Essence",
+      price: 41900,
+      image: snailserum,
+      category: "viral",
     }
 ];
+
